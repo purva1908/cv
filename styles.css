@@ -70,6 +70,7 @@ h3,h4{
 }
 .middle-container{
    position: relative;
+   padding-top: 100px;
    background-color:#edeef7;
 
 
@@ -77,8 +78,12 @@ h3,h4{
 .bottom-container{
    position: relative; 
    background-color: #66BFBF;
-height:;
+height:100px;
 margin-bottom: 0px;
+}
+
+.footerlink{
+    font-size: 8px;
 }
 
 .skill-row{
@@ -154,13 +159,13 @@ margin-bottom: 0px;
  }
  
  .redbutton:hover {
-    border: solid #ED3333 1px;
+    border: solid #33e7ed 1px;
     background: #811616;
-    background-image: -webkit-linear-gradient(top, #811616, #F63D3D);
-    background-image: -moz-linear-gradient(top, #811616, #F63D3D);
-    background-image: -ms-linear-gradient(top, #811616, #F63D3D);
-    background-image: -o-linear-gradient(top, #811616, #F63D3D);
-    background-image: -webkit-gradient(to bottom, #811616, #F63D3D);
+    background-image: -webkit-linear-gradient(top, #16817c, #3deaf6);
+    background-image: -moz-linear-gradient(top, #16817c, #3deaf6);
+    background-image: -ms-linear-gradient(top, #16817c, #3deaf6);
+    background-image: -o-linear-gradient(top, #16817c, #3deaf6D);
+    background-image: -webkit-gradient(to bottom, #16817c, #3deaf6);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
