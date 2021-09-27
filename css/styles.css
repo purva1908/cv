@@ -1,0 +1,221 @@
+body{
+
+    margin:0;
+    text-align: center; 
+    font-family: 'Merriweather', serif;
+    background-color: #66BFBF;
+}
+h1{
+    margin-top:0;
+  /*  margin:0 auto 0 auto; means top margin 0 auto center bottom 0 and right auto fixes it in center
+  font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  color:#66BFBF;
+ height:50px;
+    
+}
+
+h2{
+    font-family: 'Noto Sans' sans-serif;
+    font-size: 35px;
+    color:#7ec6d4;
+    font-weight: normal;
+    position: relative;
+
+  
+    
+}
+h3,h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    color:#66BFBF;
+    font-weight: normal;
+    text-align:center;
+    opacity 0.5;
+
+  
+}
+
+.top-hr{
+
+    background-color::#edeef7;
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 8px;
+}
+
+.bottom-hr{
+
+    background-color::#edeef7;
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 8px;
+}
+.top-container{
+  /*  background-color:#EAF6F6; */
+    background-image: radial-gradient(white ,#EAF6F6);
+    position: relative;
+    padding-top:100px;
+    
+}
+
+
+.profile{
+
+    background-color:#edeef7;
+}
+.middle-container{
+   position: relative;
+   padding-top: 50px;
+   background-color:#ffffff;
+
+
+}
+.bottom-container{
+   position: relative; 
+   /*background-color:  */
+   background-image: radial-gradient(#66BFBF,#21b8b8);
+  
+height:100px;
+margin-bottom: 0px;
+}
+
+.footer-link{
+    font-size: 16px;
+    color: #c3f1f1;
+ 
+    
+}
+.footer-link:hover{
+    color: white;
+    font-size: 18px;
+    text-underline: none;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:50px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom: 300px;
+}
+
+.layout-img{
+
+    width:25%;
+   position: relative;
+    left:250px;
+}
+
+
+.database-img{
+    width:25%;
+    position: relative;
+    left:250px;
+    
+}
+
+.developer-img{
+    width:25%;
+    position: relative;
+    left:250px;
+}
+
+.cpr{
+    color:#EAF6F6;
+}
+
+.redbutton {
+    background: #3DF6DC;
+    background-image: -webkit-linear-gradient(top, #3DF6DC, #30A58F);
+    background-image: -moz-linear-gradient(top, #3DF6DC, #30A58F);
+    background-image: -ms-linear-gradient(top, #3DF6DC, #30A58F);
+    background-image: -o-linear-gradient(top, #3DF6DC, #30A58F);
+    background-image: -webkit-gradient(to bottom, #3DF6DC, #30A58F);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 45px;
+    line-height: 14px;
+    color: #FFFFFF;
+    font-family: Courier New;
+    width: 200px;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 12px;
+    -webkit-box-shadow: 1px 1px 6px 0 #000000;
+    -moz-box-shadow: 1px 1px 6px 0 #000000;
+    box-shadow: 1px 1px 6px 0 #000000;
+    text-shadow: -4px 1px 6px #DD380D;
+    border: solid #24b3c6 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .redbutton:hover {
+    border: solid #33e7ed 1px;
+    background: #811616;
+    background-image: -webkit-linear-gradient(top, #16817c, #3deaf6);
+    background-image: -moz-linear-gradient(top, #16817c, #3deaf6);
+    background-image: -ms-linear-gradient(top, #16817c, #3deaf6);
+    background-image: -o-linear-gradient(top, #16817c, #3deaf6D);
+    background-image: -webkit-gradient(to bottom, #16817c, #3deaf6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
+ hr:hover{
+    class="animate__flipOutX";
+
+ }
+
+
+ #testimonials{
+    background-image: linear-gradient(to bottom right, #66BFBF, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+
+  .testimonial-text{
+      text-align: center;
+      color: white;
+      font-family: 'Noto Sans' sans-serif;
+       font-size: 35px;
+        font-weight: normal;
+
+  }
+
+  .testimonial-image{
+   
+      height: 300px;
+      width: 300px;
+      
+  }
+
+  .carousel-control.left, .carousel-control.right {
+    left: 0;
+    z-index: 1;
+  }
